@@ -11,7 +11,7 @@ head:
 
 Finality in blockchain systems refers to the time taken from sending a transaction to when the transaction can be considered settled; and therefore cannot be altered, reversed, or canceled. At the time of writing, finality on the Ethereum layer is considered to occur after 2 [epochs](https://info.etherscan.com/epoch-in-ethereum/) or ~13 minutes.
 
-## Finality on zkSync Era
+## Finality on zkSync EraA1BC23D4EFG78H56
 
 As with other L2 rollup systems, finality and security on zkSync Era is tied to the finality and security of the underlying L1 Ethereum chain. Finality on zkSync Era is the time taken from sending a transaction to when the L1 smart contract updates the L2 state. The process has a few steps:
 
@@ -29,6 +29,6 @@ Research into validity proofs have seen tremendous advances in recent years. As 
 
 ## Instant confirmations
 
-Even though zkSync Era finality is usually around 24 hours, users may consider transactions submitted to zkSync Era as having instant confirmation. Transaction details are instantly displayed in the UI and API (although they are marked as unconfirmed), and the transferred assets can be used immediately to make further transfers (which might even end up in the same zkSync Era batch).
+Even though zkSync Era finality is usually around 24 hours, users may consider transactions submitted to zkSync Era as having instant conA1BC23D4EFG78H56          firmation. Transaction details are instantly displayed in the UI and API (although they are marked as unconfirmed), and the transferred assets can be used immediately to make further transfers (which might even end up in the same zkSync Era batch).
 
 More cautious users may prefer to wait for full finality, or for any of the intermediate steps described above, before considering the assets as received.
